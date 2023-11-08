@@ -1,0 +1,88 @@
+.ourclients{
+    position: relative;
+    margin-top: 120px;
+    &-vector{
+        top: 0px;
+        max-width: 300px;            
+        @media screen and (max-width:997px) {
+            top: -150px;
+            img{
+                max-width: 120px !important;   
+            }         
+        }
+        @media screen and (max-width:567px) {
+            top: -110px;
+            img{
+                max-width: 100px !important;   
+            }         
+        }
+    }
+    &-title{
+        position: relative; 
+        h1{
+            text-align: center;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            color: #000000;
+
+        }
+        h1::after{
+            content: '';
+            border: 3px solid #A9A9A9;
+            position: absolute;
+            width: 120px;
+            bottom: -6px;
+            border-radius: 4px;
+            left: 38%;
+    
+        }
+        .underline{
+            position: absolute;
+            width: 270px;
+            bottom: -20px;
+            color: #A9A9A9;
+            left:41%
+        }
+        @media screen and (max-width:997px) {
+            h1{
+                font-size: 24px;
+            }
+            h1::after{
+                left: 39%;
+                bottom: -8px;
+                width: 60px;
+            }
+            .underline{
+                width: 135px;
+                bottom: -22px;
+            }
+        }
+        @media screen and (max-width:567px) {
+            h1{
+                font-size: 22px;
+            }
+            h1::after{
+                left: 31%;
+                bottom: -8px;
+                width: 60px;
+            }
+            .underline{
+                width: 100px;
+                bottom: -22px;
+            }
+        }
+    }
+    &-images{
+        text-align: center;
+        img{
+            margin: 10px 40px;
+            max-width: 200px;
+            @media screen and (max-width:997px) {
+                margin: 30px 50px;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.team-section{
+    position: relative;
+    margin-top: 120px;
+    &-vector{
+        top: 200px;
+        right: 0;
+        max-width: 300px;            
+        @media screen and (max-width:997px) {
+            top: 200px;
+            img{
+                max-width: 180px !important;   
+            }         
+        }
+        @media screen and (max-width:567px) {
+            top: 800px;
+            img{
+                max-width: 120px !important;   
+            }         
+        }
+    }
+    &-title{
+        position: relative; 
+        h1{
+            text-align: center;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            color: #000000;
+
+        }
+        h1::after{
+            content: '';
+            border: 3px solid #A9A9A9;
+            position: absolute;
+            width: 120px;
+            bottom: -1px;
+            border-radius: 4px;
+            left: 41%;
+    
+        }
+        .underline{
+            position: absolute;
+            width: 240px;
+            bottom: -15px;
+            color: #A9A9A9;
+            left:41%
+        }
+        @media screen and (max-width:997px) {
+            h1{
+                font-size: 24px;
+            }
+            h1::after{
+                left: 41%;
+                bottom: -4px;
+                width: 60px;
+            }
+            .underline{
+                width: 120px;
+                bottom: -18px;
+            }
+        }
+        @media screen and (max-width:567px) {
+            h1{
+                font-size: 22px;
+            }
+            h1::after{
+                left: 39%;
+                bottom: -4px;
+                width: 60px;
+            }
+            .underline{
+                width: 100px;
+                bottom: -18px;
+            }
+        }
+    }
+    .team-images{
+        margin-top: 50px;
+        text-align: center !important;
+        .person-1-img{
+            max-width: 400px;
+        }
+        p{
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+        @media screen and (max-width:997px) {
+            img{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

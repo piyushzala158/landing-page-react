@@ -1,0 +1,61 @@
+.footer{
+    margin-top: 80px;
+    text-align: center;
+    .container{
+    background-color: #BFDBFF;
+    .footer-title{
+        margin: 30px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #000000;
+    }
+    ul{
+        padding: 0 !important;
+        li{
+            list-style: none;   
+            img{
+                margin: 10px;
+                height: 30px;
+            }
+            a{
+                text-decoration: none !important;
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                color: #2C2C2C;
+            }
+        }
+    }
+    @media screen and (max-width:997px) {
+        .footer-title{
+            margin: 10px;
+        }
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .explore{
+        ul{
+            li{
+                padding: 10px 0px;
+            }
+        }
+    }
+    .contact{
+        ul{
+            li{
+                line-height: 30px;
+            }
+        }
+    }
+    .email{
+        margin-bottom: 10px;
+        a{
+            text-decoration: none !important;
+            color: #2C2C2C;
+        }
+    }
+    }
+}

@@ -1,0 +1,151 @@
+.section-1{
+    position: relative !important;
+    height: 1100px;
+    margin-bottom: 150px;        
+    
+    @media screen and (max-width:1200px){
+        max-height: 800PX;
+    }   
+    @media screen and (max-width:567px){
+        max-height: 540px;
+        margin-bottom: 30px;        
+    }
+}
+.bg-images{
+    .bg-image-1{
+        position: absolute;
+    }
+    .bg-image-2{
+        position: absolute;
+        right: 0;
+    }
+    .bg-image-3{
+        position: absolute;
+        bottom: 0;
+        max-width: 340px;
+  
+    }
+    .bg-image-4{
+        position: absolute;
+        max-width: 1400px;
+        bottom: 0 !important;
+    }
+    .bg-image-5{
+        position: absolute;
+        left: 142px;
+        bottom: 0;
+        width: 100%;
+        max-width: 660px;
+    }
+    
+    .bg-image-6{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        max-width: 140px;
+}
+    @media screen and (max-width:1200px) {
+        .bg-image-4{
+            max-width: 1100px;
+        }
+    }
+    @media screen and (max-width:997px) {
+        .bg-image-3{
+            max-width: 170px;
+        }
+        .bg-image-4{
+            max-width: 750px;
+        }
+        .bg-image-5{
+            max-width: 400px;
+        }
+        
+    }
+    @media screen and (max-width : 576px) {
+        .bg-image-1{
+            position: absolute;
+            max-width: 50px;
+        }
+        .bg-image-2{
+            position: absolute;
+            right: 0;
+            max-width: 80px;
+
+        }
+        .bg-image-3{
+            position: absolute;
+            bottom: 0;
+            max-width: 75px;
+      
+        }
+        .bg-image-4{
+            width: 100%;
+            max-width: 500px;
+        }
+        .bg-image-5{
+            position: absolute;
+            left: 40px;
+            bottom: 0;
+            width: 100%;
+            max-width: 230px;
+        }
+        .bg-image-6{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            max-width: 70px;
+    }
+        
+    }
+}
+.hero-container{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    margin-right: 60px;
+    .hero-title{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+    }
+    .hero-para{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        color: #2C2C2C;
+    }
+    @media screen and (max-width : 997px) {
+        .hero-title{
+            font-size: 44px;
+        }
+        .hero-para{
+            font-size: 22px;
+        }
+    }
+    @media screen and (max-width : 567px) {
+        position: relative;
+        top: 120px;
+        left: 0px;
+        max-width: max-content;
+        text-align: center;
+        margin: 0 !important;
+        .hero-title{
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            
+        }
+        .hero-para{
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: #2C2C2C;
+        }
+    }
+}

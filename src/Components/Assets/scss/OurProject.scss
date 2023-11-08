@@ -1,0 +1,95 @@
+.ourproject{
+    text-align: center;
+    margin-top: 120px;
+    &-title{
+        text-align: center;
+        position: relative;
+        margin-bottom: 40px;
+
+        h1{
+            text-align: center;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            color: #000000;
+
+        }
+        h1::after{
+            content: '';
+            border: 3px solid #A9A9A9;
+            position: absolute;
+            width: 120px;
+            bottom: -1px;
+            border-radius: 4px;
+            left: 37%;
+    
+        }
+        .underline{
+            position: absolute;
+            width: 280px;
+            bottom: -15px;
+            color: #A9A9A9;
+            left:41%
+        }
+        @media screen and (max-width:997px) {
+            h1{
+                font-size: 24px;
+                line-height: 30px;
+            }
+            h1::after{
+                left: 38%;
+                bottom: -4px;
+                width: 60px;
+            }
+            .underline{
+                width: 145px;
+                bottom: -18px;
+            }
+        }
+        @media screen and (max-width:567px) {
+            h1{
+                font-size: 22px;
+                line-height: 30px;
+            }
+            h1::after{
+                left: 26%;
+                bottom: -4px;
+                width: 60px;
+            }
+            .underline{
+                width: 100px;
+                bottom: -18px;
+            }
+        }
+    }
+    &-images{
+        &-1{
+            max-width: 500px !important;
+            margin: 16px 0px;
+        }
+        &-2{
+            max-width: 400px !important;
+            margin: 16px 0px;
+
+        }
+        &-3{
+            max-width: 400px !important;
+            margin: 16px 0px;
+
+        }
+        @media screen and (max-width:567px) {
+            &-1{
+            max-width: 300px !important;
+
+            }
+            &-2{
+                max-width: 300px !important;
+            }
+            &-3{
+                max-width: 300px !important;
+            }
+            
+        }
+    }
+}
